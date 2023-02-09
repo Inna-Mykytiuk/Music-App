@@ -24,6 +24,8 @@ body {
   background: rgb(232, 205, 247);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(21%, rgba(232, 205, 247, 0.6390931373)), to(rgba(126, 163, 175, 0.7147233894)));
   background: linear-gradient(180deg, rgba(232, 205, 247, 0.6390931373) 21%, rgba(126, 163, 175, 0.7147233894) 100%);
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 img {
