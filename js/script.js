@@ -21,7 +21,7 @@ window.addEventListener("load", () => {
 function loadData(indexValue) {
   musicName.innerHTML = songs[indexValue - 1].name;
   musicArtist.innerHTML = songs[indexValue - 1].artist;
-  Playimage.src = "https://source.unsplash.com/400x400?music";
+  // Playimage.src = "https://source.unsplash.com/400x400?music";
   Audio.src = "music/" + songs[indexValue - 1].audio + ".mp3";
 }
 
