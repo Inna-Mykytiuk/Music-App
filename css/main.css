@@ -21,7 +21,9 @@ body {
   letter-spacing: 0.02em;
   font-size: 14px;
   line-height: 1.85;
-  background-color: #e3edf7;
+  background: rgb(232, 205, 247);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(21%, rgba(232, 205, 247, 0.6390931373)), to(rgba(126, 163, 175, 0.7147233894)));
+  background: linear-gradient(180deg, rgba(232, 205, 247, 0.6390931373) 21%, rgba(126, 163, 175, 0.7147233894) 100%);
 }
 
 img {
@@ -128,7 +130,7 @@ ol {
   width: 100%;
   height: 6px;
   border-radius: 15px;
-  background-color: #ccc;
+  background-color: #dfeef5;
 }
 
 .progress-bar {
@@ -199,14 +201,15 @@ ol {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  -webkit-box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-          box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(225, 233, 237, 0.8);
+          box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(225, 233, 237, 0.8);
   color: #4d4d4d;
   border: 0;
   outline: none;
+  background-color: #dfeef5;
 }
 
 .control-btn button:active {
-  -webkit-box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15), inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
-          box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15), inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.3), inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+          box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.3), inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }/*# sourceMappingURL=main.css.map */

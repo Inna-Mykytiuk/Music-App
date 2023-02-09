@@ -14,7 +14,9 @@ body {
   letter-spacing: 0.02em;
   font-size: 14px;
   line-height: 1.85;
-  background-color: #e3edf7;
+  // background-color: #e3edf7;
+  background: rgb(232,205,247);
+  background: linear-gradient(180deg, rgba(232,205,247,0.639093137254902) 21%, rgba(126,163,175,0.7147233893557423) 100%);
 }
 
 img {
