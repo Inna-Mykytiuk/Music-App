@@ -102,9 +102,6 @@ ol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -135,7 +132,7 @@ ol {
 
 .progress-bar {
   position: relative;
-  width: 10%;
+  width: 0%;
   height: inherit;
   border-radius: inherit;
   background-color: #0987f6;
@@ -188,7 +185,7 @@ ol {
   margin-bottom: 20px;
 }
 
-.control-btn button {
+.control-btn span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,7 +206,7 @@ ol {
   background-color: #dfeef5;
 }
 
-.control-btn button:active {
+.control-btn span:active {
   -webkit-box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.3), inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
           box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.3), inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }/*# sourceMappingURL=main.css.map */

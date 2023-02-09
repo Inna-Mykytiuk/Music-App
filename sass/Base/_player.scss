@@ -41,7 +41,7 @@
 
 .image-wrapper {
   display: flex;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
 }
 
@@ -70,7 +70,7 @@
 
 .progress-bar {
   position: relative;
-  width: 10%;
+  width: 0%;
   height: inherit;
   border-radius: inherit;
   background-color: #0987f6;
@@ -109,7 +109,7 @@
   margin-bottom: 20px;
 }
 
-.control-btn button {
+.control-btn span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -124,7 +124,7 @@
   background-color: #dfeef5;
 }
 
-.control-btn button:active {
+.control-btn span:active {
   box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.3), inset 
   -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
   // transform: scale(0.98);
