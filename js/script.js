@@ -137,3 +137,13 @@ Audio.addEventListener("ended", () => {
   loadData(index);
   playSong();
 });
+
+const toggles = document.querySelectorAll(".faq-toggle");
+const imageWrapper = document.querySelector(".image-wrapper");
+
+toggles.forEach((toggle) => {
+  toggle.addEventListener("click", () => {
+    toggle.parentNode.classList.toggle("active");
+    imageWrapper.classList.toggle('disactive')
+  });
+});
