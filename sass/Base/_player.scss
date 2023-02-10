@@ -130,8 +130,6 @@
   // transform: scale(0.98);
 }
 
-
-
 .image-wrapper.disactive {
   display: none;
 }
@@ -143,8 +141,7 @@
   background: linear-gradient(180deg, rgba(111,191,217,0.35898109243697474) 25%, rgba(232,205,247,0.639093137254902) 70%);
   border-radius: 5px;
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-  -6px -6px 10px -1px rgba(225, 233, 237, 0.8);
-  
+  -6px -6px 10px -1px rgba(225, 233, 237, 0.8);  
 }
 
 
@@ -170,6 +167,7 @@ height: 33px;
   margin-top:0px;
   transition: 2s;
 }
+
 .sun {
   background-color: #fdd462;
   box-shadow: 2px 0px 0px 1px #D19C29;

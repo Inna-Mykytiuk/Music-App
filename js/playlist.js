@@ -150,10 +150,10 @@ let songs = [
     audio: "rammsteinrosenrot",
   },
   {
-    name: "Kazantip music - Anthem of Kazantip",
-    artist: "Kazantip music",
+    name: "Jay-Jay Johanson - On The Radio",
+    artist: "Jay-Jay Johanson",
     img: "img26-min",
-    audio: "rtemvoicelessgimnkazan",
+    audio: "jayjayjohansonontheradio",
   },
   {
     name: "Sting - Shape of My Heart",
