@@ -144,17 +144,5 @@
   border-radius: 5px;
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
   -6px -6px 10px -1px rgba(225, 233, 237, 0.8);
-  animation: gradient 10s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  
 }
