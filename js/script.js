@@ -140,10 +140,12 @@ Audio.addEventListener("ended", () => {
 
 const toggles = document.querySelectorAll(".faq-toggle");
 const imageWrapper = document.querySelector(".image-wrapper");
+const titles = document.querySelector(".music-titles");
 
 toggles.forEach((toggle) => {
   toggle.addEventListener("click", () => {
     toggle.parentNode.classList.toggle("active");
-    imageWrapper.classList.toggle('disactive')
+    imageWrapper.classList.toggle('disactive');
+    titles.classList.toggle("active-bg");
   });
 });

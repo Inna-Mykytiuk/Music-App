@@ -136,10 +136,25 @@
   display: none;
 }
 
-// .image-wrapper.active {
-//   display: block;
-// }
+.active-bg {
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  background: rgb(111,191,217);
+  background: linear-gradient(180deg, rgba(111,191,217,0.35898109243697474) 25%, rgba(232,205,247,0.639093137254902) 70%);
+  border-radius: 5px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+  -6px -6px 10px -1px rgba(225, 233, 237, 0.8);
+  animation: gradient 10s ease infinite;
+}
 
-// .image-wrapper.disactive .music-titles .name{
-//   color: red;
-// }
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

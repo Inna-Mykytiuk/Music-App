@@ -216,4 +216,42 @@ ol {
 
 .image-wrapper.disactive {
   display: none;
+}
+
+.active-bg {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 20px;
+  background: rgb(111, 191, 217);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, rgba(111, 191, 217, 0.3589810924)), color-stop(70%, rgba(232, 205, 247, 0.6390931373)));
+  background: linear-gradient(180deg, rgba(111, 191, 217, 0.3589810924) 25%, rgba(232, 205, 247, 0.6390931373) 70%);
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(225, 233, 237, 0.8);
+          box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(225, 233, 237, 0.8);
+  -webkit-animation: gradient 10s ease infinite;
+          animation: gradient 10s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }/*# sourceMappingURL=main.css.map */
