@@ -175,7 +175,7 @@ let songs = [
   },
   {
     name: "The Doors - People are Strange",
-    artist: "Rammstein",
+    artist: "The Doors",
     img: "img30-min",
     audio: "thedoorspeoplearestrange",
   },
