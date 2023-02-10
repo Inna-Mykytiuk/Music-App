@@ -26,6 +26,8 @@ body {
   background: linear-gradient(180deg, rgba(232, 205, 247, 0.7511379552) 17%, rgba(111, 191, 217, 0.7707457983) 100%);
   overflow: hidden;
   margin: 0 auto;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
 img {
@@ -241,9 +243,9 @@ ol {
 
 .moon {
   background-color: transparent;
-  -webkit-box-shadow: -6px 1px 0 3px #275e8e;
-          box-shadow: -6px 1px 0 3px #275e8e;
-  border-left: 3px solid #27476D;
+  -webkit-box-shadow: -6px 1px 0 3px #4e8596;
+          box-shadow: -6px 1px 0 3px #4e8596;
+  border-left: 3px solid #3b6470;
   border-radius: 50%;
   width: 20px;
   height: 20px;
