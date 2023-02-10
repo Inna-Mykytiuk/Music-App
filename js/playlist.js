@@ -181,7 +181,7 @@ let songs = [
   },
   {
     name: "Queen - Show Must Go On",
-    artist: "Rammstein",
+    artist: "Queen",
     img: "img31-min",
     audio: "theshowmustgoon",
   },
